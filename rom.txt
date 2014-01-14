@@ -1,0 +1,39 @@
+// ECE 2504 Fall 2012  Design project 2
+// 
+// This text file contains the memory contents of the ROM
+// in hex.   The ROM is 20 bits wide, which is 5 hex digits per address.
+// 
+//  opcode is bits 19:16, operandA is bits 15:8, and operandB is bits 7:0.
+//  For example, the first entry is 4AA11, so the opcode is 4, operandA is AA,
+//  and operandB is 11 (all values in hex).
+//  
+//  The ROM has 16 addresses.  
+//  
+//  You should modify the contents of this file to use your opcodes for 
+//  the ALU operations, and operands for testing your ALU.  Do not list
+//  more than 16 values in this file.
+// 
+//  "@<number>" specifies the memory location of the next line of data 
+//  and then the next lines are in consecutive locations.
+//
+//
+//addition 0000
+//subtraction 0001
+//increment 0010
+//decrement 0011
+//negative 0100
+//
+//logical and 1000
+//logical or  1001
+//logical not 1010
+//logical xor 1011
+//
+//logical shift left 1100
+//logical shift right 1101
+
+@0
+11F61
+03F4E
+8F00F
+9AA54
+CE907
